@@ -84,7 +84,7 @@ app.delete('/goals/:id', async (req, res) => {
 });
 
 mongoose.connect(
-  'mongodb://localhost:27017/course-goals',
+  'mongodb+srv://ustinovoleksij:T5pZkIPW28QSq0uu@cluster0.rq3mlzg.mongodb.net/',
   {
     useNewUrlParser: true,
     useUnifiedTopology: true,
